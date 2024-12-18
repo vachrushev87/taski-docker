@@ -43,7 +43,7 @@ services:
   gateway:
     # Сбилдить и запустить образ, 
     # описанный в Dockerfile в папке gateway
-    build: ./gateway/
+    build: ./nginx/
     # А тут подключаем volume со статикой к gateway
     volumes:
       - static:/staticfiles/
