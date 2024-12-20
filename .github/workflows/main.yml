@@ -78,4 +78,4 @@ jobs:
             push: true
             # устанавливаем тег latest, чтобы потом
             # на сервере и в docker-compose.yml не указывать версию
-            tags: vachrushev87/taski_backend:latest
+            tags: alex161rus/taski_backend:latest
